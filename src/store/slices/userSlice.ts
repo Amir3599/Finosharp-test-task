@@ -5,21 +5,22 @@ const initialUserState: any = {
     role: 'general',
     username: 'no-user',
     email: undefined,
-    headline: undefined
+    headline: undefined,
+    currency: "USD"
 }
 
 const userSlice = createSlice({
     name: "user",
     initialState: { ...initialUserState },
     reducers: {
-        // setUser(state, action: PayloadAction<UserType>) {
-        //     return state = action.payload
-        // },
+        setUser(state, action: PayloadAction<any>) {
+            return state = action.payload
+        },
         // removeUser(state) {
         //     return state = initialUserState
         // }
     }
 })
 
-export const { } = userSlice.actions
+export const { setUser } = userSlice.actions
 export default userSlice.reducer
