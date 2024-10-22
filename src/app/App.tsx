@@ -1,4 +1,4 @@
-import { FullScreenLoading } from 'components/common';
+import { FullScreenLoading, Header } from 'components/common';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Routes from 'common/router'
@@ -23,6 +23,7 @@ function App() {
   return (
     <div className={`${theme}`}>
       <div className='app-outer-background'>
+        <Header />
         <Routes />
         {loading && <FullScreenLoading />}
       </div>
