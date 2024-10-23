@@ -4,6 +4,7 @@ import Loadable from "./loadable/Loadable";
 import Loader from "./loader/Loader";
 import MiniLoading from "./MiniLoading/MiniLoading";
 import Header from "./Header/Header";
+import ErrorBounary from "./ErrorBounary/ErrorBounary";
 
 export {
     FullScreenLoading,
@@ -11,5 +12,5 @@ export {
     Loadable,
     Loader,
     MiniLoading,
-    Header
+    Header, ErrorBounary
 }

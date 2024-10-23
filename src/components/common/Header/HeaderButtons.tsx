@@ -55,6 +55,7 @@ const HeaderButtons = () => {
             <button className='hidden xl:block' onClick={toggleTheme}>{theme === "dark" ? <MdDarkMode className='fill-app-white scale-[1.35] hover:fill-app-yellow' /> : <MdSunny className='fill-black scale-[1.50] hover:fill-app-yellow' />}</button>
             <button className='block xl:hidden' onClick={toggleDrawer}><GiHamburgerMenu className='scale-150 hover:fill-app-yellow' /></button>
             <Drawer
+                style={{ zIndex: 999999999999999 }}
                 open={isOpen}
                 onClose={toggleDrawer}
                 direction='right'
