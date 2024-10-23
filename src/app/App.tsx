@@ -27,7 +27,6 @@ function App() {
         <Routes />
         {loading && <FullScreenLoading />}
       </div>
-      <button onClick={toggleTheme} className='fixed bottom-0 left-0 w-10 h-10'>Toggle</button>
     </div>
   );
 }

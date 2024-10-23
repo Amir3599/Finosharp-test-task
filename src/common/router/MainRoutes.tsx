@@ -1,6 +1,6 @@
 import { MainPagesLayout } from 'common/layouts'
 
-import React, { lazy } from 'react'
+import React from 'react'
 import { RouteObject } from 'react-router'
 
 // const MainPage = Loadable(lazy(() => import('pages/main/MainPage')))

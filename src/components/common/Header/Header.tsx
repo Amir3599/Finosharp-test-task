@@ -1,5 +1,5 @@
-import { Logo } from 'assets'
 import React from 'react'
+import { Logo } from 'assets'
 import Navbar from '../Navbar/Navbar'
 import HeaderButtons from './HeaderButtons'
 

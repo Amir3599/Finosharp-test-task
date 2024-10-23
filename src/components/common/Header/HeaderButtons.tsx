@@ -39,9 +39,9 @@ const HeaderButtons = () => {
             >
                 <button><LuSearch className='scale-125 stroke-[4px] hover:stroke-app-yellow' /></button>
             </Popover>
-            <CusButton className='bg-app-yellow hover:enabled:bg-app-yellow/75 dark:bg-app-yellow dark:hover:enabled:bg-app-yellow/75'>
-                <DepositIcon svgProps={{ className: "mt-1 scale-[1.2]" }} />
-                <span className='text-black ml-2'>Deposit</span>
+            <CusButton className='bg-app-yellow hover:enabled:bg-app-yellow/75 dark:bg-app-yellow dark:hover:enabled:bg-app-yellow/75 h-9'>
+                <DepositIcon svgProps={{ className: " scale-[1.2]" }} />
+                <span className='text-black ml-2 -mt-1'>Deposit</span>
             </CusButton>
             <Popover
                 trigger='hover'

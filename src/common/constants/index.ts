@@ -1,1 +1,1 @@
-export const BASE_API_URL = ''
+export const BASE_API_URL = 'https://api2.binance.com/api/v3/'
