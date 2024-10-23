@@ -44,8 +44,8 @@ const NavbarDrawer: FC<props> = ({ toggleDrawer }) => {
                     <button onClick={() => toggleTheme("dark")} className={`flex-1 flex justify-center items-center ${theme === "dark" && "dark:bg-slate-500/80 bg-app-bg"}`}><MdDarkMode /></button>
                 </div>
             </div>
-            <NavbarItem item={{ name: "Download", icon: <DownloadIcon svgProps={{ className: "dark:fill-app-white fill-black" }} />, link: "#" }} />
-            <NavbarItem item={{ name: "English", icon: <GlobeIcon svgProps={{ className: "dark:fill-app-white fill-black" }} />, link: "#" }} />
+            <NavbarItem item={{ name: "Download", icon: <DownloadIcon svgProps={{ className: "dark:fill-app-white fill-black transition-colors duration-150" }} />, link: "#" }} />
+            <NavbarItem item={{ name: "English", icon: <GlobeIcon svgProps={{ className: "dark:fill-app-white fill-black transition-colors duration-150" }} />, link: "#" }} />
             <NavbarItem item={{ name: "USD", icon: <AiFillDollarCircle />, link: "#" }} />
         </div>
     )
